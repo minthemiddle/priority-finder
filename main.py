@@ -41,9 +41,9 @@ for goal, count in sorted(counts.items(), key=lambda x: x[1], reverse=True):
     print(f"{goal}: {count}")
 
 print(f"\nHow to read?")
-print(f"Example: Key result 1 has count 4, key result 2 has count 1")
-print(f"👉 Key result 1 is 4x as important as key result 2")
+print(f"Example: Goal 1 has count 4, Goal 2 has count 1")
+print(f"👉 Goal 1 is 4x as important as Goal 2")
 
 print(f"\nExplanation:")
-print(f"For every chosen key result, the priority is increased by 1")
-print(f"Every key result starts with count 1")
+print(f"For every chosen Goal, the priority is increased by 1")
+print(f"Every Goal starts with count 1")
